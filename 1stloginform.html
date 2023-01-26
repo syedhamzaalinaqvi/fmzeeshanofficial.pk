@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5013575cda.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="1stcss.css">
+    <title>1st-login-form</title>
+</head>
+<body background=" C:\Users\Hamza\Documents\fmpisti\bodybg.png">
+
+
+
+
+    <div class="sidebar1" id="sidebar1">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        
+        
+        </div>
+        <nav class="loginnav">
+        <span onclick="opennav()" class="menubtn">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        </nav>
+        <div id="closebar1"></div>
+         <script>
+        function opennav(){
+            document.getElementById("sidebar1").style.width = "250px";
+        }
+        
+        function closeNav(){
+            document.getElementById("sidebar1").style.width = "0px";
+        }
+        
+         </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <div class="firstloginformdiv">
+        <h1 class="loginh1"> Login</h1>
+     <form action="/syedhamzaalinaqvi04@gmail.com" method="post">
+        <label for="email"></label> <br>
+        <input type="email" id="email" width="90%"  height="80px" placeholder="@gmail.com" autocomplete="on">   
+        <br><br><br>
+        <label for="password"></label>
+        <input type="password"  id="password" placeholder="Password"><br><br>
+        <label for="submit"></label>
+        <input type="submit" value="Login" id="submit">
+        <a href="http://" class="signinlink"> Sign up</a>
+
+     </form>
+       
+
+    </div>
+
+
+</body>
+</html>
